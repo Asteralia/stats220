@@ -1,3 +1,7 @@
+# Intro
+-I'm Shuan Rong
+-That's all
+
 # STATS220
 Basically a funny yet interesting assignment to make memes
 
