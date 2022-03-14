@@ -6,7 +6,8 @@ As you can see the various ***FUN*** stages in doing CS
 
 Here's the code:
 
-`library(magick)
+```r
+library(magick)
 
 ok_chika <- image_read("https://i.redd.it/lw2u7nmb65c31.png") %>%
   image_scale(600)
@@ -56,8 +57,8 @@ last_row <- c(compsci220, lost_it_chika) %>%
 meme <- c(second_row, third_row, last_row) %>%
   image_append(stack = TRUE)
 
-image_write(meme, "my_meme.png")`
-
+image_write(meme, "my_meme.png")
+```
 ### Why?
 1. It's fun coding
 2. But theory is confusing
